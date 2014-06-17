@@ -1,0 +1,207 @@
+Log: Log file open, 06/17/14 12:31:12
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Feb 17 2014 13:34:55
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: C:\UDK\UDK-2014-02\Binaries\Win64\
+[0000.49] Init: Computer: NATALIE-PC
+[0000.49] Init: User: Natalie
+[0000.49] Init: CPU Page size=4096, Processors=6
+[0000.49] Init: High frequency timer resolution =14.318180 MHz
+[0000.49] Init: Memory total: Physical=8.0GB (8GB approx) Pagefile=16.0GB Virtual=8192.0GB
+[0000.49] Log: Steam Client API Disabled!
+[0000.52] Init: WinSock: I am Natalie-PC (192.168.0.180:0)
+[0000.52] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.52] Init: Object subsystem initialized
+[0000.52] Warning: Warning, Unknown language extension DEU. Defaulting to INT
+[0000.54] Log: SystemSettings based on: SystemSettings
+[0000.54] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0000.54] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0000.56] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.70] Log: PhysX GPU Support: DISABLED
+[0000.70] Init: Initializing FaceFX...
+[0000.70] Init: FaceFX 1.7.4 initialized.
+[0003.77] Init: Finished loading startup packages in 2.93 seconds
+[0003.79] Log: 85667 objects as part of root set at end of initial load.
+[0003.79] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.49] Log: Supported Consoles:
+[0004.49] Log:   IPhone
+[0004.49] Log:   Mac
+[0004.49] Log:   PC
+[0004.49] Log: Initializing Engine...
+[0004.63] Log: Encountered missing default brush - spawning new one
+[0004.63] Init: UEngine initialized
+[0004.63] Log: Primary PhysX scene will be in software.
+[0004.63] Log: Creating Primary PhysX Scene.
+[0004.65] Init: Transaction tracking system initialized
+[0004.73] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0004.73] Log: Can't find edit package 'OnlineSubsystemLive'
+[0005.54] Init: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0005.58] Init: XAudio2Device initialized.
+[0005.65] Init: Client initialized
+[0005.65] Init: Editor engine initialized
+[0005.79] Log: Initializing Engine Completed
+[0005.79] Log: >>>>>>>>>>>>>> Initial startup: 5.79s <<<<<<<<<<<<<<<
+[0005.89] Cmd: MODE MAPEXT=udk
+[0006.04] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0008.92] Log: The hooked GetPenEventMultiple() method was called; events are being ignored.
+[0008.92] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0008.92] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0011.09] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0011.38] Log: Encountered missing default brush - spawning new one
+[0011.99] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0012.14] Log: -- Checking Building LODs
+[0012.16] Log: Primary PhysX scene will be in software.
+[0012.16] Log: Creating Primary PhysX Scene.
+[0012.17] Log: Finished looking for orphan Actors (0.008 secs)
+[0012.18] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0012.19] Log: TIMER ALL OF INIT : [11.477319]
+[0030.58] Cmd: MAP LOAD FILE="C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk" TEMPLATE=0
+[0030.65] Log: Encountered missing default brush - spawning new one
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.97] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.98] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.3bolzen_vorn'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_0.StaticMeshComponent_3' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.aussenrohr_oben'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_1.StaticMeshComponent_4' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.hinterradachse'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_10.StaticMeshComponent_11' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.kabine'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_11.StaticMeshComponent_12' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.korntank'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_12.StaticMeshComponent_13' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.linkeSeitenflaeche'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_13.StaticMeshComponent_14' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.schaufel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_15.StaticMeshComponent_16' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.schraegfoerderer'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_17.StaticMeshComponent_18' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.strohhaecksler'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_18.StaticMeshComponent_19' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.treppe_links'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_19.StaticMeshComponent_20' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.dachmotor'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_2.StaticMeshComponent_5' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.vorderradachse'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_20.StaticMeshComponent_21' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.dreschtrommel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_24.StaticMeshComponent_5' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.wendetrommel_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_25.StaticMeshComponent_45' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler_Auffangblech'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_27.StaticMeshComponent_14' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.dreschkorb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_39.StaticMeshComponent_4' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.einzugsschnecke'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_4.StaticMeshComponent_6' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.baender_motor_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_41.StaticMeshComponent_6' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0030.99] Warning: Failed to load 'Maehdrescher.bauteile.Behaelter-neben-Maehdrescher'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_45.StaticMeshComponent_10' ('Engine.StaticMeshComponent:StaticMesh').
+[0030.99] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.baender_links'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_46.StaticMeshComponent_11' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.roehren'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_5.StaticMeshComponent_33' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.foedertrommel_vor_dreschtrommel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_51.StaticMeshComponent_16' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_54.StaticMeshComponent_19' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler_Auffangblech'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_55.StaticMeshComponent_20' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.kleines_Band_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_56.StaticMeshComponent_21' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.kornschnecke'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_57.StaticMeshComponent_22' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.korntank_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_59.StaticMeshComponent_24' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.geblaese'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_6.StaticMeshComponent_7' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.korntankfoerderer'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_60.StaticMeshComponent_25' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.mittelroehre_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_62.StaticMeshComponent_27' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.motorabdeckung'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_64.StaticMeshComponent_29' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.motorpropeller'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_66.StaticMeshComponent_31' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.obersieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_67.StaticMeshComponent_32' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.roehrenmotor'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_69.StaticMeshComponent_34' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.gesamterLaderaumohnelinkeSeitenflaeche'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_7.StaticMeshComponent_8' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.roehrensieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_70.StaticMeshComponent_35' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.seitenroehren_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_72.StaticMeshComponent_37' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.00] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.00] Warning: Failed to load 'Maehdrescher.bauteile.stangen_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_73.StaticMeshComponent_38' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.01] Warning: Failed to load 'Maehdrescher.bauteile.ueberkehrschnecke_aussen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_75.StaticMeshComponent_40' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.01] Warning: Failed to load 'Maehdrescher.bauteile.ueberkehrschnecke_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_76.StaticMeshComponent_41' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.01] Warning: Failed to load 'Maehdrescher.bauteile.untersieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_77.StaticMeshComponent_42' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.01] Warning: Failed to load 'Maehdrescher.bauteile.wendetrommel_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_80.StaticMeshComponent_45' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.01] Warning: Failed to load 'Maehdrescher.bauteile.haspel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_9.StaticMeshComponent_10' ('Engine.StaticMeshComponent:StaticMesh').
+[0031.01] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0031.16] Log: -- Checking Building LODs
+[0031.18] Log: Primary PhysX scene will be in software.
+[0031.18] Log: Creating Primary PhysX Scene.
+[0031.19] Log: Finished looking for orphan Actors (0.008 secs)
+[0031.24] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0047.43] Exit: Preparing to exit.
+[0047.63] Exit: Editor shut down
+[0047.63] Exit: Transaction tracking system shut down
+[0047.76] Exit: Windows client shut down
+[0047.77] Exit: XAudio2 Device shut down.
+[0047.82] Exit: Object subsystem successfully closed.
+[0047.83] Log: Shutting down FaceFX...
+[0047.83] Log: FaceFX shutdown.
+[0047.85] Exit: Exiting.
+[0047.85] Log: Log file closed, 06/17/14 12:32:00

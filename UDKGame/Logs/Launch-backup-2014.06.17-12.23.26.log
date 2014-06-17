@@ -1,0 +1,732 @@
+Log: Log file open, 06/17/14 12:20:54
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Feb 17 2014 13:34:55
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: C:\UDK\UDK-2014-02\Binaries\Win64\
+[0000.49] Init: Computer: NATALIE-PC
+[0000.49] Init: User: Natalie
+[0000.49] Init: CPU Page size=4096, Processors=6
+[0000.49] Init: High frequency timer resolution =14.318180 MHz
+[0000.49] Init: Memory total: Physical=8.0GB (8GB approx) Pagefile=16.0GB Virtual=8192.0GB
+[0000.49] Log: Steam Client API Disabled!
+[0000.52] Init: WinSock: I am Natalie-PC (192.168.0.180:0)
+[0000.52] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.52] Init: Object subsystem initialized
+[0000.52] Warning: Warning, Unknown language extension DEU. Defaulting to INT
+[0000.53] Log: SystemSettings based on: SystemSettings
+[0000.54] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0000.54] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0000.55] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.69] Log: PhysX GPU Support: DISABLED
+[0000.70] Init: Initializing FaceFX...
+[0000.70] Init: FaceFX 1.7.4 initialized.
+[0003.58] Init: Finished loading startup packages in 2.74 seconds
+[0003.59] Log: 85667 objects as part of root set at end of initial load.
+[0003.59] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.32] Log: Supported Consoles:
+[0004.32] Log:   IPhone
+[0004.32] Log:   Mac
+[0004.32] Log:   PC
+[0004.32] Log: Initializing Engine...
+[0004.45] Log: Encountered missing default brush - spawning new one
+[0004.46] Init: UEngine initialized
+[0004.46] Log: Primary PhysX scene will be in software.
+[0004.46] Log: Creating Primary PhysX Scene.
+[0004.47] Init: Transaction tracking system initialized
+[0004.55] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0004.55] Log: Can't find edit package 'OnlineSubsystemLive'
+[0005.28] Init: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0005.33] Init: XAudio2Device initialized.
+[0005.39] Init: Client initialized
+[0005.40] Init: Editor engine initialized
+[0005.53] Log: Initializing Engine Completed
+[0005.53] Log: >>>>>>>>>>>>>> Initial startup: 5.53s <<<<<<<<<<<<<<<
+[0005.62] Cmd: MODE MAPEXT=udk
+[0005.74] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0008.39] Log: The hooked GetPenEventMultiple() method was called; events are being ignored.
+[0008.39] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0008.39] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0010.14] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0010.38] Log: Encountered missing default brush - spawning new one
+[0010.73] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0010.85] Log: -- Checking Building LODs
+[0010.86] Log: Primary PhysX scene will be in software.
+[0010.87] Log: Creating Primary PhysX Scene.
+[0010.88] Log: Finished looking for orphan Actors (0.009 secs)
+[0010.88] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0010.89] Log: TIMER ALL OF INIT : [10.182452]
+[0037.26] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.Auspuff_neu'.
+[0037.26] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.baender_links'.
+[0037.32] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.baender_motor_rechts'.
+[0037.39] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.Behaelter-neben-Maehdrescher'.
+[0037.40] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.dreschkorb'.
+[0037.55] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.dreschtrommel'.
+[0037.56] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.foedertrommel_vor_dreschtrommel'.
+[0037.57] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaese'.
+[0037.57] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaese2'.
+[0037.57] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaeseroehre_und_boden'.
+[0037.58] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.hordenschuettler'.
+[0037.60] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.hordenschuettler_Auffangblech'.
+[0037.60] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.kleines_Band_rechts'.
+[0037.61] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.kornschnecke'.
+[0037.62] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.korntank_inneres'.
+[0037.62] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.korntankfoerderer'.
+[0037.63] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.mittelroehre_inneres'.
+[0037.65] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motor'.
+[0037.92] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorabdeckung'.
+[0037.92] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorkaesten'.
+[0037.94] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorpropeller'.
+[0037.94] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.neuer3roehrenmotor'.
+[0037.95] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.obersieb'.
+[0037.96] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehren'.
+[0037.99] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehrenmotor'.
+[0038.00] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehrensieb'.
+[0038.12] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.seitenroehren_inneres'.
+[0038.13] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.stangen_rechts'.
+[0038.13] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.ueberkehrschnecke_aussen'.
+[0038.14] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.ueberkehrschnecke_innen'.
+[0038.15] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.untersieb'.
+[0038.15] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.vorbereitungsboden'.
+[0038.16] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.wendetrommel_aussen'.
+[0038.17] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.wendetrommel_innen'.
+[0038.35] Log: Building adjacency information for static mesh 'Maehdrescher.Auspuff_neu'.
+[0038.35] Log: Building adjacency information for static mesh 'Maehdrescher.baender_links'.
+[0038.40] Log: Building adjacency information for static mesh 'Maehdrescher.baender_motor_rechts'.
+[0038.47] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.Auspuff_neu'.
+[0038.47] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.baender_links'.
+[0038.52] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.baender_motor_rechts'.
+[0038.58] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.Behaelter-neben-Maehdrescher'.
+[0038.59] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.dreschkorb'.
+[0038.73] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.dreschtrommel'.
+[0038.74] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.foedertrommel_vor_dreschtrommel'.
+[0038.74] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.geblaese'.
+[0038.75] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.geblaeseroehre_und_boden'.
+[0038.76] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.hordenschuettler'.
+[0038.77] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.hordenschuettler_Auffangblech'.
+[0038.77] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.kleines_Band_rechts'.
+[0038.79] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.kornschnecke'.
+[0038.80] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.korntank_inneres'.
+[0038.80] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.korntankfoerderer'.
+[0038.81] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.mittelroehre_inneres'.
+[0038.82] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.motor'.
+[0039.09] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.motorabdeckung'.
+[0039.09] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.motorkaesten'.
+[0039.11] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.motorpropeller'.
+[0039.11] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.obersieb'.
+[0039.11] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.roehren'.
+[0039.15] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.roehrenmotor'.
+[0039.15] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.roehrensieb'.
+[0039.27] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.seitenroehren_inneres'.
+[0039.28] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.stangen_rechts'.
+[0039.29] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.ueberkehrschnecke_aussen'.
+[0039.29] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.ueberkehrschnecke_innen'.
+[0039.31] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.untersieb'.
+[0039.31] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.vorbereitungsboden'.
+[0039.31] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.wendetrommel_aussen'.
+[0039.32] Log: Building adjacency information for static mesh 'Maehdrescher.bauteile.wendetrommel_innen'.
+[0039.33] Log: Building adjacency information for static mesh 'Maehdrescher.Behaelter-neben-Maehdrescher'.
+[0039.34] Log: Building adjacency information for static mesh 'Maehdrescher.dreschkorb'.
+[0039.47] Log: Building adjacency information for static mesh 'Maehdrescher.dreschtrommel'.
+[0039.48] Log: Building adjacency information for static mesh 'Maehdrescher.foedertrommel_vor_dreschtrommel'.
+[0039.49] Log: Building adjacency information for static mesh 'Maehdrescher.geblaese'.
+[0039.49] Log: Building adjacency information for static mesh 'Maehdrescher.geblaeseroehre_und_boden'.
+[0039.50] Log: Building adjacency information for static mesh 'Maehdrescher.hordenschuettler'.
+[0039.51] Log: Building adjacency information for static mesh 'Maehdrescher.hordenschuettler_Auffangblech'.
+[0039.52] Log: Building adjacency information for static mesh 'Maehdrescher.kleines_Band_rechts'.
+[0039.53] Log: Building adjacency information for static mesh 'Maehdrescher.kornschnecke'.
+[0039.54] Log: Building adjacency information for static mesh 'Maehdrescher.korntank_inneres'.
+[0039.54] Log: Building adjacency information for static mesh 'Maehdrescher.korntankfoerderer'.
+[0039.55] Log: Building adjacency information for static mesh 'Maehdrescher.mittelroehre_inneres'.
+[0039.56] Log: Building adjacency information for static mesh 'Maehdrescher.motor'.
+[0039.83] Log: Building adjacency information for static mesh 'Maehdrescher.motorabdeckung'.
+[0039.83] Log: Building adjacency information for static mesh 'Maehdrescher.motorkaesten'.
+[0039.85] Log: Building adjacency information for static mesh 'Maehdrescher.motorpropeller'.
+[0039.85] Log: Building adjacency information for static mesh 'Maehdrescher.obersieb'.
+[0039.85] Log: Building adjacency information for static mesh 'Maehdrescher.roehren'.
+[0039.89] Log: Building adjacency information for static mesh 'Maehdrescher.roehrenmotor'.
+[0039.89] Log: Building adjacency information for static mesh 'Maehdrescher.roehrensieb'.
+[0040.01] Log: Building adjacency information for static mesh 'Maehdrescher.seitenroehren_inneres'.
+[0040.02] Log: Building adjacency information for static mesh 'Maehdrescher.stangen_rechts'.
+[0040.02] Log: Building adjacency information for static mesh 'Maehdrescher.ueberkehrschnecke_aussen'.
+[0040.03] Log: Building adjacency information for static mesh 'Maehdrescher.ueberkehrschnecke_innen'.
+[0040.05] Log: Building adjacency information for static mesh 'Maehdrescher.untersieb'.
+[0040.05] Log: Building adjacency information for static mesh 'Maehdrescher.vorbereitungsboden'.
+[0040.05] Log: Building adjacency information for static mesh 'Maehdrescher.wendetrommel_aussen'.
+[0040.06] Log: Building adjacency information for static mesh 'Maehdrescher.wendetrommel_innen'.
+[0040.11] Log: Building adjacency information for static mesh 'MyPackage.A_Button'.
+[0040.12] Log: Building adjacency information for static mesh 'MyPackage.B_button'.
+[0040.12] Log: Building adjacency information for static mesh 'MyPackage.BackButtons'.
+[0040.13] Log: Building adjacency information for static mesh 'MyPackage.BodyController'.
+[0040.61] Log: Building adjacency information for static mesh 'MyPackage.Cross'.
+[0040.71] Log: Building adjacency information for static mesh 'MyPackage.L_button'.
+[0040.71] Log: Building adjacency information for static mesh 'MyPackage.L_Joystick'.
+[0040.76] Log: Building adjacency information for static mesh 'MyPackage.MyXBoxController'.
+[0043.79] Log: Building adjacency information for static mesh 'MyPackage.R_button'.
+[0043.80] Log: Building adjacency information for static mesh 'MyPackage.R_Joystick'.
+[0043.84] Log: Building adjacency information for static mesh 'MyPackage.X_Button'.
+[0043.84] Log: Building adjacency information for static mesh 'MyPackage.XBoxHome'.
+[0043.85] Log: Building adjacency information for static mesh 'MyPackage.XboxTypeS_Back'.
+[0043.86] Log: Building adjacency information for static mesh 'MyPackage.XboxTypeS_Start'.
+[0043.86] Log: Building adjacency information for static mesh 'MyPackage.Y_button'.
+[0053.29] Cmd: MAP LOAD FILE="C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk" TEMPLATE=0
+[0053.36] Log: Encountered missing default brush - spawning new one
+[0053.81] Log: -- Checking Building LODs
+[0053.83] Log: Primary PhysX scene will be in software.
+[0053.83] Log: Creating Primary PhysX Scene.
+[0053.84] Log: Finished looking for orphan Actors (0.009 secs)
+[0053.86] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0094.49] Log: saving as ..\..\UDKGame\Content\maher\Maehdrescher.upk
+[0094.52] Log: OBJ SavePackage: Generating thumbnails for [309] asset(s) in package [Maehdrescher] ([309] browsable assets)...
+[0094.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Auspuff1]
+[0094.57] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Brushed-Aluminium_Dup_Dup_Dup_Dup]
+[0094.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Brushed-Aluminium_001]
+[0094.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Ground1_Dup]
+[0094.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Kornhaufen-H_nger_Dup]
+[0094.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Kornhaufen-Tank]
+[0094.60] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Lack-blau-3_Dup_Dup_Dup]
+[0094.60] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Lack-Grau_Dup]
+[0094.61] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Lack-Grau-dunkel_Dup]
+[0094.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Lack-H_nger-Neu_Dup]
+[0094.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Lack-H_nger-Neu__Untitled_Dup]
+[0094.63] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Lack-schwarz]
+[0094.63] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Lack-weiss]
+[0094.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Lack-weiss-2]
+[0094.65] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Auspuff_002_Dup]
+[0094.65] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Auspuff_004_Dup]
+[0094.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_0011]
+[0094.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_0013]
+[0094.67] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_003]
+[0094.68] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_005]
+[0094.68] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_007]
+[0094.69] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Brushed_Aluminium_009]
+[0094.69] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Fahrersitz_1_001_canvas_2_jpg1]
+[0094.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Felgen_002]
+[0094.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Felgen_004]
+[0094.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Felgen_006]
+[0094.72] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Felgen_008]
+[0094.72] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_GitterKasten_001_metallgitter_durc_003]
+[0094.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Glas_Test_002]
+[0094.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Knospen1_Dup]
+[0094.74] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Knospen_002]
+[0094.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Knospen_006]
+[0094.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_0010]
+[0094.76] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_blau_3_0012_Dup]
+[0094.76] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_0014]
+[0094.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_0016]
+[0094.78] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_0018]
+[0094.78] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_002]
+[0094.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_004]
+[0094.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_006]
+[0094.80] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_3_008]
+[0094.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_blau_FRONT_001_Untitled_003]
+[0094.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_0010]
+[0094.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_0012]
+[0094.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_0014]
+[0094.83] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_0016]
+[0094.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_0018]
+[0094.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_002]
+[0094.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_004]
+[0094.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_006]
+[0094.86] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_008]
+[0094.87] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_011]
+[0094.87] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_013]
+[0094.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_Grau_015_Dup]
+[0094.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_Grau_017_Dup]
+[0094.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_Grau_019_Dup]
+[0094.90] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_021]
+[0094.90] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_023]
+[0094.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_025]
+[0094.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_027]
+[0094.92] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_029]
+[0094.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_031]
+[0094.93] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_033]
+[0094.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_035]
+[0094.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_037]
+[0094.95] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_039]
+[0094.96] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_041]
+[0094.96] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_043]
+[0094.97] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_045]
+[0094.97] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_047]
+[0094.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_049]
+[0094.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_051]
+[0094.99] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_053]
+[0095.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_ScheinW_001_Plastic_jpg1]
+[0095.00] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_Grau_ScheinW_Plastic_jpg1]
+[0095.01] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_0012]
+[0095.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_schwarz_0014_Dup]
+[0095.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_0016]
+[0095.03] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_002]
+[0095.03] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_004]
+[0095.04] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_006]
+[0095.05] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_008]
+[0095.05] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_schwarz_019_Dup]
+[0095.06] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_schwarz_023]
+[0095.06] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_002]
+[0095.07] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_weiss_004_Dup]
+[0095.08] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Lack_weiss_2_0010_Dup]
+[0095.08] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_0012]
+[0095.09] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_0014]
+[0095.09] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_0016]
+[0095.10] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_0018]
+[0095.11] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_002]
+[0095.11] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_004]
+[0095.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_006]
+[0095.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_008]
+[0095.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_011]
+[0095.14] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_013]
+[0095.14] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Lack_weiss_2_TUD_001_TUD_Logo_TestGrid1]
+[0095.15] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Leuchte_orange_002]
+[0095.15] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Leuchte_orange_004]
+[0095.16] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Löscher_Rot_001_Feuerloescher_Bil1]
+[0095.17] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Löscher_Rot_002_Feuerloescher_Bil1]
+[0095.17] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_LöscherSchlauch_R1]
+[0095.18] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_LöscherSchlauch_R_002]
+[0095.18] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Material_0010]
+[0095.19] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Material_002]
+[0095.20] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Material_004]
+[0095.20] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Motorabdeckung_001_Metallplatte_jpg_002_Dup]
+[0095.21] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_null_1_Dup_Dup_Dup]
+[0095.21] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Radmuttern_002]
+[0095.22] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Radmuttern_004]
+[0095.23] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Radmuttern_006]
+[0095.23] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Radmuttern_008]
+[0095.24] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_002]
+[0095.24] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_004]
+[0095.25] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_006]
+[0095.26] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_008]
+[0095.26] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_bright_002]
+[0095.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_bright_004]
+[0095.27] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Rubber_bright_006_Dup]
+[0095.28] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rubber_bright_008]
+[0095.29] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Rückleuchte_001_Rücklicht_jpg1]
+[0095.29] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_RückleuchteTex_001_RÒ_cklicht_jpg1]
+[0095.30] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_ScheinW_001_Plastic_jpg1]
+[0095.31] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_ScheinW_O_001_Plastic_jpg1]
+[0095.31] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_ScheinW_O_002_Plastic_jpg1]
+[0095.32] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_ScheinW_O_003_Plastic_jpg1]
+[0095.32] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_ScheinW_O_004_Plastic_jpg1]
+[0095.33] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Spiegel_001_Spiegel_jpg1]
+[0095.33] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Stahl_innereien_0010]
+[0095.34] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Stahl_innereien_0012]
+[0095.35] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_002_Dup]
+[0095.35] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_004_Dup]
+[0095.36] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_006_Dup]
+[0095.36] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Stahl_innereien_008]
+[0095.37] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_015_Dup]
+[0095.38] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_017_Dup]
+[0095.38] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_019_Dup]
+[0095.39] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_021_Dup]
+[0095.40] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_023_Dup]
+[0095.40] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Stahl_innereien_025_Dup]
+[0095.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_002]
+[0095.41] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_004]
+[0095.42] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Steel_2_0010_Dup]
+[0095.42] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Steel_2_0012_Dup]
+[0095.43] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_0014]
+[0095.44] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_0016]
+[0095.44] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_0018]
+[0095.45] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_002]
+[0095.46] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_004]
+[0095.46] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Steel_2_006_Dup]
+[0095.47] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_Steel_2_008_Dup]
+[0095.47] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Steel_2_011]
+[0095.48] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_0010_Dup]
+[0095.49] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_0012_Dup]
+[0095.49] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_0014_Dup]
+[0095.50] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_0016_Dup]
+[0095.50] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_002_Dup]
+[0095.51] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_004_Dup]
+[0095.51] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_006_Dup]
+[0095.52] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Maehdrescher2_steel_polished_008_Dup]
+[0095.53] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Stroh_002]
+[0095.53] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Maehdrescher2_Türgriff_002]
+[0095.54] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.Motorabdeckung__Metallplatte_jpg_001]
+[0095.55] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong10]
+[0095.55] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong100]
+[0095.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong101]
+[0095.56] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong103]
+[0095.57] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.phong12_Dup]
+[0095.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.phong20_Dup]
+[0095.58] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong21]
+[0095.59] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong4]
+[0095.60] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong51]
+[0095.60] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong52]
+[0095.61] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong53]
+[0095.61] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong54]
+[0095.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong55]
+[0095.62] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong56]
+[0095.63] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong57]
+[0095.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong58]
+[0095.64] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong59]
+[0095.65] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong60]
+[0095.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong61]
+[0095.66] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong62]
+[0095.67] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong63]
+[0095.68] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong64]
+[0095.68] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong65]
+[0095.69] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong66]
+[0095.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong67]
+[0095.70] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong68]
+[0095.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong69]
+[0095.71] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong70]
+[0095.72] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong71]
+[0095.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong72]
+[0095.73] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong73]
+[0095.74] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong74]
+[0095.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong75]
+[0095.75] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong76]
+[0095.76] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong77]
+[0095.76] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong78]
+[0095.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong79]
+[0095.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong80]
+[0095.78] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong81]
+[0095.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong82]
+[0095.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong83]
+[0095.80] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong84]
+[0095.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong85]
+[0095.81] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong86]
+[0095.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong87]
+[0095.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong88]
+[0095.83] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong89]
+[0095.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong90]
+[0095.84] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong91]
+[0095.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong92]
+[0095.86] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong93]
+[0095.86] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong94]
+[0095.87] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong95]
+[0095.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong96]
+[0095.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong97]
+[0095.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong98]
+[0095.89] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.phong99]
+[0095.90] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Stahl-innereien_Dup_Dup_Dup]
+[0095.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Steel_Dup]
+[0095.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Steel-2_Dup]
+[0095.92] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.Materials.steel_polished]
+[0095.92] Log: OBJ SavePackage:     Rendered thumbnail for [Material Maehdrescher.bauteile.Unnamed_Dup_Dup]
+[0095.93] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.Auspuff_neu]
+[0095.94] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.baender_links]
+[0095.95] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.baender_motor_rechts]
+[0095.96] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.3bolzen_vorn_Dup]
+[0095.96] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.Auspuff_neu_Dup]
+[0095.97] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.aussenrohr_oben_Dup]
+[0095.98] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.baender_links_Dup]
+[0095.98] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.baender_motor_rechts_Dup]
+[0095.99] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.Behaelter-neben-Maehdrescher_Dup]
+[0096.00] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.dachmotor_Dup]
+[0096.00] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.dreschkorb_Dup]
+[0096.01] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.dreschtrommel_Dup]
+[0096.02] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.einzugsschnecke_Dup]
+[0096.02] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.foedertrommel_vor_dreschtrommel_Dup]
+[0096.03] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.geblaese_Dup]
+[0096.04] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.geblaeseroehre_und_boden]
+[0096.05] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.gesamterLaderaum]
+[0096.05] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.gesamterLaderaumohnelinkeSeitenflaeche]
+[0096.06] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.halbkreis_hinten]
+[0096.07] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.haspel]
+[0096.07] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.hinterradachse]
+[0096.08] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.hordenschuettler]
+[0096.09] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.hordenschuettler_Auffangblech]
+[0096.09] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.kabine]
+[0096.10] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.kleines_Band_rechts]
+[0096.11] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.kornschnecke]
+[0096.11] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.korntank]
+[0096.12] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.korntank_inneres]
+[0096.13] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.korntankfoerderer]
+[0096.13] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.linkeSeitenflaeche]
+[0096.14] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.mittelplatte]
+[0096.14] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.mittelroehre_inneres]
+[0096.16] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.motor]
+[0096.17] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.motorabdeckung]
+[0096.17] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.motorkaesten]
+[0096.18] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.motorpropeller]
+[0096.19] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.obersieb]
+[0096.19] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.roehren]
+[0096.20] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.roehrenmotor]
+[0096.21] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.roehrensieb]
+[0096.21] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.schaufel]
+[0096.22] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.schaufel_platte]
+[0096.23] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.schraegfoerderer]
+[0096.23] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.seitenroehren_inneres]
+[0096.24] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.stangen_rechts]
+[0096.25] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.strohhaecksler]
+[0096.25] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.treppe_links]
+[0096.26] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.ueberkehrschnecke_aussen]
+[0096.27] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.ueberkehrschnecke_innen]
+[0096.27] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.untersieb]
+[0096.28] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.vorbereitungsboden]
+[0096.29] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.vorderradachse]
+[0096.29] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.wendetrommel_aussen]
+[0096.30] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.bauteile.wendetrommel_innen]
+[0096.31] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.Behaelter-neben-Maehdrescher]
+[0096.32] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.dreschkorb]
+[0096.33] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.dreschtrommel]
+[0096.33] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.foedertrommel_vor_dreschtrommel]
+[0096.34] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.geblaese]
+[0096.35] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.geblaeseroehre_und_boden]
+[0096.35] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.hordenschuettler]
+[0096.36] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.hordenschuettler_Auffangblech]
+[0096.37] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.kleines_Band_rechts]
+[0096.38] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.kornschnecke]
+[0096.38] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.korntank_inneres]
+[0096.39] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.korntankfoerderer]
+[0096.40] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.mittelroehre_inneres]
+[0096.41] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.motor]
+[0096.42] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.motorabdeckung]
+[0096.43] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.motorkaesten]
+[0096.43] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.motorpropeller]
+[0096.44] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.obersieb]
+[0096.45] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.roehren]
+[0096.46] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.roehrenmotor]
+[0096.47] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.roehrensieb]
+[0096.48] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.seitenroehren_inneres]
+[0096.48] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.stangen_rechts]
+[0096.49] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.ueberkehrschnecke_aussen]
+[0096.50] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.ueberkehrschnecke_innen]
+[0096.50] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.untersieb]
+[0096.51] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.vorbereitungsboden]
+[0096.52] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.wendetrommel_aussen]
+[0096.53] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh Maehdrescher.wendetrommel_innen]
+[0096.53] Log: OBJ SavePackage: Finished generating thumbnails for package [Maehdrescher]
+[0096.53] Cmd: OBJ SAVEPACKAGE PACKAGE="Maehdrescher" FILE="..\..\UDKGame\Content\maher\Maehdrescher.upk"
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.56] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.57] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.58] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.60] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.61] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.61] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.61] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.61] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0096.61] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0103.25] Log: Save=6640.299954
+[0103.25] Log: Moving '..\..\UDKGame\Content\maher\Maehdrescher_save.tmp' to '..\..\UDKGame\Content\maher\Maehdrescher.upk'
+[0137.82] Exit: Preparing to exit.
+[0138.02] Exit: Editor shut down
+[0138.02] Exit: Transaction tracking system shut down
+[0138.11] Exit: Windows client shut down
+[0138.12] Exit: XAudio2 Device shut down.
+[0138.18] Exit: Object subsystem successfully closed.
+[0138.19] Log: Shutting down FaceFX...
+[0138.19] Log: FaceFX shutdown.
+[0138.21] Exit: Exiting.
+[0138.21] Log: Log file closed, 06/17/14 12:23:11

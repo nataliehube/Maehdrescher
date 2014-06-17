@@ -1,0 +1,531 @@
+Log: Log file open, 06/17/14 11:51:39
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (64-bit): Feb 17 2014 13:34:55
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: C:\UDK\UDK-2014-02\Binaries\Win64\
+[0000.49] Init: Computer: NATALIE-PC
+[0000.49] Init: User: Natalie
+[0000.49] Init: CPU Page size=4096, Processors=6
+[0000.49] Init: High frequency timer resolution =14.318180 MHz
+[0000.49] Init: Memory total: Physical=8.0GB (8GB approx) Pagefile=16.0GB Virtual=8192.0GB
+[0000.49] Log: Steam Client API Disabled!
+[0000.51] Init: WinSock: I am Natalie-PC (192.168.0.180:0)
+[0000.51] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.51] Init: Object subsystem initialized
+[0000.51] Warning: Warning, Unknown language extension DEU. Defaulting to INT
+[0000.54] Log: SystemSettings based on: SystemSettings
+[0000.55] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0000.55] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0000.56] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.70] Log: PhysX GPU Support: DISABLED
+[0000.71] Init: Initializing FaceFX...
+[0000.71] Init: FaceFX 1.7.4 initialized.
+[0003.57] Init: Finished loading startup packages in 2.72 seconds
+[0003.58] Log: 85666 objects as part of root set at end of initial load.
+[0003.58] Log: 0 out of 0 bytes used by permanent object pool.
+[0004.30] Log: Supported Consoles:
+[0004.30] Log:   IPhone
+[0004.30] Log:   Mac
+[0004.30] Log:   PC
+[0004.30] Log: Initializing Engine...
+[0004.42] Log: Encountered missing default brush - spawning new one
+[0004.43] Init: UEngine initialized
+[0004.43] Log: Primary PhysX scene will be in software.
+[0004.43] Log: Creating Primary PhysX Scene.
+[0004.44] Init: Transaction tracking system initialized
+[0004.52] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0004.52] Log: Can't find edit package 'OnlineSubsystemLive'
+[0005.23] Init: XAudio2 using 'Lautsprecher (VIA High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0005.29] Init: XAudio2Device initialized.
+[0005.35] Init: Client initialized
+[0005.35] Init: Editor engine initialized
+[0005.49] Log: Initializing Engine Completed
+[0005.49] Log: >>>>>>>>>>>>>> Initial startup: 5.49s <<<<<<<<<<<<<<<
+[0005.57] Cmd: MODE MAPEXT=udk
+[0005.69] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0008.46] Log: The hooked GetPenEventMultiple() method was called; events are being ignored.
+[0008.46] Log: Found D3D11 adapter 0: ATI Radeon HD 5700 Series
+[0008.46] Log: Adapter has 1012MB of dedicated video memory, 0MB of dedicated system memory, and 3839MB of shared system memory
+[0010.14] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0010.37] Log: Encountered missing default brush - spawning new one
+[0010.71] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0010.83] Log: -- Checking Building LODs
+[0010.85] Log: Primary PhysX scene will be in software.
+[0010.85] Log: Creating Primary PhysX Scene.
+[0010.86] Log: Finished looking for orphan Actors (0.009 secs)
+[0010.87] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0010.88] Log: TIMER ALL OF INIT : [10.160278]
+[0022.87] Log: Missing cached shader map for material Auspuff1, quality 0, compiling.
+[0023.45] Log: Missing cached shader map for material Brushed-Aluminium, quality 0, compiling.
+[0023.89] Log: Missing cached shader map for material Brushed-Aluminium_001, quality 0, compiling.
+[0024.26] Log: Missing cached shader map for material Ground1, quality 0, compiling.
+[0024.62] Log: Missing cached shader map for material Kornhaufen-H_nger, quality 0, compiling.
+[0024.99] Log: Missing cached shader map for material Kornhaufen-Tank, quality 0, compiling.
+[0025.35] Log: Missing cached shader map for material Lack-blau-3, quality 0, compiling.
+[0025.71] Log: Missing cached shader map for material Lack-Grau, quality 0, compiling.
+[0026.07] Log: Missing cached shader map for material Lack-Grau-dunkel, quality 0, compiling.
+[0026.45] Log: Missing cached shader map for material Lack-H_nger-Neu, quality 0, compiling.
+[0026.82] Log: Missing cached shader map for material Lack-H_nger-Neu__Untitled, quality 0, compiling.
+[0027.18] Log: Missing cached shader map for material Lack-schwarz, quality 0, compiling.
+[0027.55] Log: Missing cached shader map for material Lack-weiss, quality 0, compiling.
+[0027.91] Log: Missing cached shader map for material Lack-weiss-2, quality 0, compiling.
+[0028.26] Log: Missing cached shader map for material Maehdrescher2_Auspuff_002, quality 0, compiling.
+[0028.63] Log: Missing cached shader map for material Maehdrescher2_Auspuff_004, quality 0, compiling.
+[0029.00] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_0011, quality 0, compiling.
+[0029.38] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_0013, quality 0, compiling.
+[0029.75] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_003, quality 0, compiling.
+[0030.12] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_005, quality 0, compiling.
+[0030.48] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_007, quality 0, compiling.
+[0030.84] Log: Missing cached shader map for material Maehdrescher2_Brushed_Aluminium_009, quality 0, compiling.
+[0031.21] Log: Missing cached shader map for material Maehdrescher2_Fahrersitz_1_001_canvas_2_jpg1, quality 0, compiling.
+[0031.57] Log: Missing cached shader map for material Maehdrescher2_Felgen_002, quality 0, compiling.
+[0031.93] Log: Missing cached shader map for material Maehdrescher2_Felgen_004, quality 0, compiling.
+[0032.30] Log: Missing cached shader map for material Maehdrescher2_Felgen_006, quality 0, compiling.
+[0032.67] Log: Missing cached shader map for material Maehdrescher2_Felgen_008, quality 0, compiling.
+[0033.05] Log: Missing cached shader map for material Maehdrescher2_GitterKasten_001_metallgitter_durc_003, quality 0, compiling.
+[0033.41] Log: Missing cached shader map for material Maehdrescher2_Glas_Test_002, quality 0, compiling.
+[0033.77] Log: Missing cached shader map for material Maehdrescher2_Knospen1, quality 0, compiling.
+[0034.14] Log: Missing cached shader map for material Maehdrescher2_Knospen_002, quality 0, compiling.
+[0034.50] Log: Missing cached shader map for material Maehdrescher2_Knospen_006, quality 0, compiling.
+[0034.86] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_0010, quality 0, compiling.
+[0035.22] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_0012, quality 0, compiling.
+[0035.58] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_0014, quality 0, compiling.
+[0035.94] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_0016, quality 0, compiling.
+[0036.31] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_0018, quality 0, compiling.
+[0036.67] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_002, quality 0, compiling.
+[0037.03] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_004, quality 0, compiling.
+[0037.40] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_006, quality 0, compiling.
+[0037.77] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_3_008, quality 0, compiling.
+[0038.14] Log: Missing cached shader map for material Maehdrescher2_Lack_blau_FRONT_001_Untitled_003, quality 0, compiling.
+[0038.51] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_0010, quality 0, compiling.
+[0038.88] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_0012, quality 0, compiling.
+[0039.29] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_0014, quality 0, compiling.
+[0039.66] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_0016, quality 0, compiling.
+[0040.04] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_0018, quality 0, compiling.
+[0040.44] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_002, quality 0, compiling.
+[0040.84] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_004, quality 0, compiling.
+[0041.22] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_006, quality 0, compiling.
+[0041.60] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_008, quality 0, compiling.
+[0041.98] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_011, quality 0, compiling.
+[0042.40] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_013, quality 0, compiling.
+[0042.79] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_015, quality 0, compiling.
+[0043.17] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_017, quality 0, compiling.
+[0043.56] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_019, quality 0, compiling.
+[0043.94] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_021, quality 0, compiling.
+[0044.33] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_023, quality 0, compiling.
+[0044.71] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_025, quality 0, compiling.
+[0045.09] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_027, quality 0, compiling.
+[0045.46] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_029, quality 0, compiling.
+[0045.90] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_031, quality 0, compiling.
+[0046.29] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_033, quality 0, compiling.
+[0046.95] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_035, quality 0, compiling.
+[0047.32] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_037, quality 0, compiling.
+[0047.71] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_039, quality 0, compiling.
+[0048.15] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_041, quality 0, compiling.
+[0048.53] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_043, quality 0, compiling.
+[0048.90] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_045, quality 0, compiling.
+[0049.30] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_047, quality 0, compiling.
+[0049.67] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_049, quality 0, compiling.
+[0050.04] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_051, quality 0, compiling.
+[0050.43] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_053, quality 0, compiling.
+[0050.81] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_ScheinW_001_Plastic_jpg1, quality 0, compiling.
+[0051.22] Log: Missing cached shader map for material Maehdrescher2_Lack_Grau_ScheinW_Plastic_jpg1, quality 0, compiling.
+[0051.58] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_0012, quality 0, compiling.
+[0051.96] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_0014, quality 0, compiling.
+[0052.33] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_0016, quality 0, compiling.
+[0052.70] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_002, quality 0, compiling.
+[0053.05] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_004, quality 0, compiling.
+[0053.42] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_006, quality 0, compiling.
+[0053.79] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_008, quality 0, compiling.
+[0055.23] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_019, quality 0, compiling.
+[0055.59] Log: Missing cached shader map for material Maehdrescher2_Lack_schwarz_023, quality 0, compiling.
+[0055.98] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_002, quality 0, compiling.
+[0056.36] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_004, quality 0, compiling.
+[0056.73] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_0010, quality 0, compiling.
+[0057.12] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_0012, quality 0, compiling.
+[0057.48] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_0014, quality 0, compiling.
+[0057.85] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_0016, quality 0, compiling.
+[0058.22] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_0018, quality 0, compiling.
+[0058.59] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_002, quality 0, compiling.
+[0058.96] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_004, quality 0, compiling.
+[0059.32] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_006, quality 0, compiling.
+[0059.69] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_008, quality 0, compiling.
+[0060.07] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_011, quality 0, compiling.
+[0060.43] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_013, quality 0, compiling.
+[0060.80] Log: Missing cached shader map for material Maehdrescher2_Lack_weiss_2_TUD_001_TUD_Logo_TestGrid1, quality 0, compiling.
+[0061.18] Log: Missing cached shader map for material Maehdrescher2_Leuchte_orange_002, quality 0, compiling.
+[0061.55] Log: Missing cached shader map for material Maehdrescher2_Leuchte_orange_004, quality 0, compiling.
+[0062.25] Log: Missing cached shader map for material Maehdrescher2_Löscher_Rot_001_Feuerloescher_Bil1, quality 0, compiling.
+[0062.62] Log: Missing cached shader map for material Maehdrescher2_Löscher_Rot_002_Feuerloescher_Bil1, quality 0, compiling.
+[0062.99] Log: Missing cached shader map for material Maehdrescher2_LöscherSchlauch_R1, quality 0, compiling.
+[0063.37] Log: Missing cached shader map for material Maehdrescher2_LöscherSchlauch_R_002, quality 0, compiling.
+[0063.75] Log: Missing cached shader map for material Maehdrescher2_Material_0010, quality 0, compiling.
+[0064.13] Log: Missing cached shader map for material Maehdrescher2_Material_002, quality 0, compiling.
+[0064.50] Log: Missing cached shader map for material Maehdrescher2_Material_004, quality 0, compiling.
+[0064.88] Log: Missing cached shader map for material Maehdrescher2_Motorabdeckung_001_Metallplatte_jpg_002, quality 0, compiling.
+[0065.26] Log: Missing cached shader map for material Maehdrescher2_null_1, quality 0, compiling.
+[0065.62] Log: Missing cached shader map for material Maehdrescher2_Radmuttern_002, quality 0, compiling.
+[0065.98] Log: Missing cached shader map for material Maehdrescher2_Radmuttern_004, quality 0, compiling.
+[0066.35] Log: Missing cached shader map for material Maehdrescher2_Radmuttern_006, quality 0, compiling.
+[0066.71] Log: Missing cached shader map for material Maehdrescher2_Radmuttern_008, quality 0, compiling.
+[0067.09] Log: Missing cached shader map for material Maehdrescher2_Rubber_002, quality 0, compiling.
+[0067.45] Log: Missing cached shader map for material Maehdrescher2_Rubber_004, quality 0, compiling.
+[0067.82] Log: Missing cached shader map for material Maehdrescher2_Rubber_006, quality 0, compiling.
+[0068.19] Log: Missing cached shader map for material Maehdrescher2_Rubber_008, quality 0, compiling.
+[0068.54] Log: Missing cached shader map for material Maehdrescher2_Rubber_bright_002, quality 0, compiling.
+[0068.91] Log: Missing cached shader map for material Maehdrescher2_Rubber_bright_004, quality 0, compiling.
+[0069.28] Log: Missing cached shader map for material Maehdrescher2_Rubber_bright_006, quality 0, compiling.
+[0069.65] Log: Missing cached shader map for material Maehdrescher2_Rubber_bright_008, quality 0, compiling.
+[0070.03] Log: Missing cached shader map for material Maehdrescher2_Rückleuchte_001_Rücklicht_jpg1, quality 0, compiling.
+[0070.39] Log: Missing cached shader map for material Maehdrescher2_RückleuchteTex_001_RÒ_cklicht_jpg1, quality 0, compiling.
+[0070.75] Log: Missing cached shader map for material Maehdrescher2_ScheinW_001_Plastic_jpg1, quality 0, compiling.
+[0071.13] Log: Missing cached shader map for material Maehdrescher2_ScheinW_O_001_Plastic_jpg1, quality 0, compiling.
+[0071.51] Log: Missing cached shader map for material Maehdrescher2_ScheinW_O_002_Plastic_jpg1, quality 0, compiling.
+[0071.89] Log: Missing cached shader map for material Maehdrescher2_ScheinW_O_003_Plastic_jpg1, quality 0, compiling.
+[0072.25] Log: Missing cached shader map for material Maehdrescher2_ScheinW_O_004_Plastic_jpg1, quality 0, compiling.
+[0072.61] Log: Missing cached shader map for material Maehdrescher2_Spiegel_001_Spiegel_jpg1, quality 0, compiling.
+[0072.99] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_0010, quality 0, compiling.
+[0073.36] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_0012, quality 0, compiling.
+[0073.73] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_002, quality 0, compiling.
+[0074.15] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_004, quality 0, compiling.
+[0074.56] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_006, quality 0, compiling.
+[0074.94] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_008, quality 0, compiling.
+[0075.31] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_015, quality 0, compiling.
+[0075.69] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_017, quality 0, compiling.
+[0076.18] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_019, quality 0, compiling.
+[0076.56] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_021, quality 0, compiling.
+[0076.94] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_023, quality 0, compiling.
+[0077.34] Log: Missing cached shader map for material Maehdrescher2_Stahl_innereien_025, quality 0, compiling.
+[0077.72] Log: Missing cached shader map for material Maehdrescher2_Steel_002, quality 0, compiling.
+[0078.10] Log: Missing cached shader map for material Maehdrescher2_Steel_004, quality 0, compiling.
+[0078.47] Log: Missing cached shader map for material Maehdrescher2_Steel_2_0010, quality 0, compiling.
+[0079.26] Log: Missing cached shader map for material Maehdrescher2_Steel_2_0012, quality 0, compiling.
+[0080.00] Log: Missing cached shader map for material Maehdrescher2_Steel_2_0014, quality 0, compiling.
+[0080.42] Log: Missing cached shader map for material Maehdrescher2_Steel_2_0016, quality 0, compiling.
+[0080.79] Log: Missing cached shader map for material Maehdrescher2_Steel_2_0018, quality 0, compiling.
+[0081.15] Log: Missing cached shader map for material Maehdrescher2_Steel_2_002, quality 0, compiling.
+[0081.52] Log: Missing cached shader map for material Maehdrescher2_Steel_2_004, quality 0, compiling.
+[0081.90] Log: Missing cached shader map for material Maehdrescher2_Steel_2_006, quality 0, compiling.
+[0082.26] Log: Missing cached shader map for material Maehdrescher2_Steel_2_008, quality 0, compiling.
+[0082.64] Log: Missing cached shader map for material Maehdrescher2_Steel_2_011, quality 0, compiling.
+[0083.03] Log: Missing cached shader map for material Maehdrescher2_steel_polished_0010, quality 0, compiling.
+[0083.44] Log: Missing cached shader map for material Maehdrescher2_steel_polished_0012, quality 0, compiling.
+[0083.82] Log: Missing cached shader map for material Maehdrescher2_steel_polished_0014, quality 0, compiling.
+[0084.20] Log: Missing cached shader map for material Maehdrescher2_steel_polished_0016, quality 0, compiling.
+[0084.58] Log: Missing cached shader map for material Maehdrescher2_steel_polished_002, quality 0, compiling.
+[0084.97] Log: Missing cached shader map for material Maehdrescher2_steel_polished_004, quality 0, compiling.
+[0085.34] Log: Missing cached shader map for material Maehdrescher2_steel_polished_006, quality 0, compiling.
+[0085.73] Log: Missing cached shader map for material Maehdrescher2_steel_polished_008, quality 0, compiling.
+[0086.11] Log: Missing cached shader map for material Maehdrescher2_Stroh_002, quality 0, compiling.
+[0086.48] Log: Missing cached shader map for material Maehdrescher2_Türgriff_002, quality 0, compiling.
+[0086.86] Log: Missing cached shader map for material Motorabdeckung__Metallplatte_jpg_001, quality 0, compiling.
+[0087.22] Log: Missing cached shader map for material phong10, quality 0, compiling.
+[0087.60] Log: Missing cached shader map for material phong100, quality 0, compiling.
+[0087.97] Log: Missing cached shader map for material phong101, quality 0, compiling.
+[0088.34] Log: Missing cached shader map for material phong103, quality 0, compiling.
+[0088.72] Log: Missing cached shader map for material phong12, quality 0, compiling.
+[0089.10] Log: Missing cached shader map for material phong20, quality 0, compiling.
+[0089.50] Log: Missing cached shader map for material phong21, quality 0, compiling.
+[0089.88] Log: Missing cached shader map for material phong4, quality 0, compiling.
+[0090.39] Log: Missing cached shader map for material phong51, quality 0, compiling.
+[0090.75] Log: Missing cached shader map for material phong52, quality 0, compiling.
+[0091.12] Log: Missing cached shader map for material phong53, quality 0, compiling.
+[0091.49] Log: Missing cached shader map for material phong54, quality 0, compiling.
+[0091.85] Log: Missing cached shader map for material phong55, quality 0, compiling.
+[0092.22] Log: Missing cached shader map for material phong56, quality 0, compiling.
+[0092.59] Log: Missing cached shader map for material phong57, quality 0, compiling.
+[0092.95] Log: Missing cached shader map for material phong58, quality 0, compiling.
+[0093.31] Log: Missing cached shader map for material phong59, quality 0, compiling.
+[0093.68] Log: Missing cached shader map for material phong60, quality 0, compiling.
+[0094.05] Log: Missing cached shader map for material phong61, quality 0, compiling.
+[0094.42] Log: Missing cached shader map for material phong62, quality 0, compiling.
+[0094.79] Log: Missing cached shader map for material phong63, quality 0, compiling.
+[0095.15] Log: Missing cached shader map for material phong64, quality 0, compiling.
+[0095.52] Log: Missing cached shader map for material phong65, quality 0, compiling.
+[0095.88] Log: Missing cached shader map for material phong66, quality 0, compiling.
+[0096.28] Log: Missing cached shader map for material phong67, quality 0, compiling.
+[0096.66] Log: Missing cached shader map for material phong68, quality 0, compiling.
+[0097.09] Log: Missing cached shader map for material phong69, quality 0, compiling.
+[0097.50] Log: Missing cached shader map for material phong70, quality 0, compiling.
+[0097.89] Log: Missing cached shader map for material phong71, quality 0, compiling.
+[0098.27] Log: Missing cached shader map for material phong72, quality 0, compiling.
+[0098.65] Log: Missing cached shader map for material phong73, quality 0, compiling.
+[0099.01] Log: Missing cached shader map for material phong74, quality 0, compiling.
+[0099.39] Log: Missing cached shader map for material phong75, quality 0, compiling.
+[0099.76] Log: Missing cached shader map for material phong76, quality 0, compiling.
+[0100.12] Log: Missing cached shader map for material phong77, quality 0, compiling.
+[0100.52] Log: Missing cached shader map for material phong78, quality 0, compiling.
+[0100.92] Log: Missing cached shader map for material phong79, quality 0, compiling.
+[0101.35] Log: Missing cached shader map for material phong80, quality 0, compiling.
+[0101.72] Log: Missing cached shader map for material phong81, quality 0, compiling.
+[0102.11] Log: Missing cached shader map for material phong82, quality 0, compiling.
+[0102.48] Log: Missing cached shader map for material phong83, quality 0, compiling.
+[0102.85] Log: Missing cached shader map for material phong84, quality 0, compiling.
+[0107.15] Log: Missing cached shader map for material phong85, quality 0, compiling.
+[0107.54] Log: Missing cached shader map for material phong86, quality 0, compiling.
+[0107.90] Log: Missing cached shader map for material phong87, quality 0, compiling.
+[0108.27] Log: Missing cached shader map for material phong88, quality 0, compiling.
+[0108.66] Log: Missing cached shader map for material phong89, quality 0, compiling.
+[0109.01] Log: Missing cached shader map for material phong90, quality 0, compiling.
+[0109.39] Log: Missing cached shader map for material phong91, quality 0, compiling.
+[0109.77] Log: Missing cached shader map for material phong92, quality 0, compiling.
+[0110.15] Log: Missing cached shader map for material phong93, quality 0, compiling.
+[0110.53] Log: Missing cached shader map for material phong94, quality 0, compiling.
+[0110.94] Log: Missing cached shader map for material phong95, quality 0, compiling.
+[0111.34] Log: Missing cached shader map for material phong96, quality 0, compiling.
+[0111.75] Log: Missing cached shader map for material phong97, quality 0, compiling.
+[0112.11] Log: Missing cached shader map for material phong98, quality 0, compiling.
+[0112.48] Log: Missing cached shader map for material phong99, quality 0, compiling.
+[0112.87] Log: Missing cached shader map for material Stahl-innereien, quality 0, compiling.
+[0113.24] Log: Missing cached shader map for material Steel, quality 0, compiling.
+[0113.62] Log: Missing cached shader map for material Steel-2, quality 0, compiling.
+[0114.00] Log: Missing cached shader map for material steel_polished, quality 0, compiling.
+[0114.40] Log: Missing cached shader map for material Unnamed, quality 0, compiling.
+[0114.79] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.Auspuff_neu'.
+[0115.10] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.baender_links'.
+[0115.16] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.baender_motor_rechts'.
+[0115.23] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.Behaelter-neben-Maehdrescher'.
+[0115.24] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.dreschkorb'.
+[0115.39] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.dreschtrommel'.
+[0115.40] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.foedertrommel_vor_dreschtrommel'.
+[0115.41] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaese'.
+[0115.42] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaese2'.
+[0115.42] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.geblaeseroehre_und_boden'.
+[0115.42] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.hordenschuettler'.
+[0115.44] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.hordenschuettler_Auffangblech'.
+[0115.44] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.kleines_Band_rechts'.
+[0115.46] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.kornschnecke'.
+[0115.47] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.korntank_inneres'.
+[0115.47] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.korntankfoerderer'.
+[0115.48] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.mittelroehre_inneres'.
+[0115.49] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motor'.
+[0115.78] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorabdeckung'.
+[0115.78] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorkaesten'.
+[0115.80] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.motorpropeller'.
+[0115.80] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.neuer3roehrenmotor'.
+[0115.81] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.obersieb'.
+[0115.82] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehren'.
+[0115.85] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehrenmotor'.
+[0115.86] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.roehrensieb'.
+[0115.98] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.seitenroehren_inneres'.
+[0115.99] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.stangen_rechts'.
+[0116.00] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.ueberkehrschnecke_aussen'.
+[0116.00] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.ueberkehrschnecke_innen'.
+[0116.02] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.untersieb'.
+[0116.02] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.vorbereitungsboden'.
+[0116.02] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.wendetrommel_aussen'.
+[0116.03] Log: Building adjacency information for static mesh 'Maehdrescher_alle_teile.wendetrommel_innen'.
+[0131.18] Log: Missing cached shader map for material _Black_, quality 0, compiling.
+[0131.55] Log: Missing cached shader map for material _Burnt_Umber_, quality 0, compiling.
+[0131.94] Log: Missing cached shader map for material _Cladding_Siding_White_1, quality 0, compiling.
+[0132.31] Log: Missing cached shader map for material _Translucent_Glass_Sky_Reflection_1, quality 0, compiling.
+[0132.67] Log: Missing cached shader map for material Blinds_Cloth_Horizontal, quality 0, compiling.
+[0133.05] Log: Missing cached shader map for material Blinds_Roman_Hobbled_Blue, quality 0, compiling.
+[0133.46] Log: Missing cached shader map for material Blinds_Wood_Bamboo, quality 0, compiling.
+[0133.83] Log: Missing cached shader map for material Blinds_Wood_Bamboo1, quality 0, compiling.
+[0134.20] Log: Missing cached shader map for material Blinds_Wood_Bamboo3, quality 0, compiling.
+[0134.57] Log: Missing cached shader map for material Blinds_Wood_Bamboo4, quality 0, compiling.
+[0134.94] Log: Missing cached shader map for material Blinds_Wood_Bamboo5, quality 0, compiling.
+[0135.30] Log: Missing cached shader map for material Blinds_Wood_Natural2, quality 0, compiling.
+[0135.66] Log: Missing cached shader map for material Color_000, quality 0, compiling.
+[0136.03] Log: Missing cached shader map for material Color_002, quality 0, compiling.
+[0136.39] Log: Missing cached shader map for material Color_004, quality 0, compiling.
+[0136.75] Log: Missing cached shader map for material Color_005, quality 0, compiling.
+[0137.12] Log: Missing cached shader map for material Color_006, quality 0, compiling.
+[0137.50] Log: Missing cached shader map for material Color_007, quality 0, compiling.
+[0137.86] Log: Missing cached shader map for material Color_A14, quality 0, compiling.
+[0138.22] Log: Missing cached shader map for material Color_A20, quality 0, compiling.
+[0138.58] Log: Missing cached shader map for material Color_A22, quality 0, compiling.
+[0138.95] Log: Missing cached shader map for material Color_B18, quality 0, compiling.
+[0139.36] Log: Missing cached shader map for material Color_B21, quality 0, compiling.
+[0139.72] Log: Missing cached shader map for material Color_C10, quality 0, compiling.
+[0140.09] Log: Missing cached shader map for material Color_C17, quality 0, compiling.
+[0140.46] Log: Missing cached shader map for material Color_C22, quality 0, compiling.
+[0140.82] Log: Missing cached shader map for material Color_D10, quality 0, compiling.
+[0141.22] Log: Missing cached shader map for material Color_D14, quality 0, compiling.
+[0141.58] Log: Missing cached shader map for material Color_D15, quality 0, compiling.
+[0141.94] Log: Missing cached shader map for material Color_I21, quality 0, compiling.
+[0142.30] Log: Missing cached shader map for material Fencing_Weathered2, quality 0, compiling.
+[0142.67] Log: Missing cached shader map for material Fencing_Weathered3, quality 0, compiling.
+[0143.05] Log: Missing cached shader map for material Fencing_Weathered4, quality 0, compiling.
+[0143.41] Log: Missing cached shader map for material Fencing_Weathered6, quality 0, compiling.
+[0143.78] Log: Missing cached shader map for material Fencing_Weathered8, quality 0, compiling.
+[0144.14] Log: Missing cached shader map for material FrontColor, quality 0, compiling.
+[0144.51] Log: Missing cached shader map for material Metal_Aluminum_Anodized, quality 0, compiling.
+[0144.87] Log: Missing cached shader map for material museum, quality 0, compiling.
+[0145.25] Log: Missing cached shader map for material Roofing_Shingles_GAF_Estates, quality 0, compiling.
+[0145.61] Log: Missing cached shader map for material Roofing_Tile_Spanish, quality 0, compiling.
+[0145.97] Log: Missing cached shader map for material Roofing_Tile_Spanish1, quality 0, compiling.
+[0146.33] Log: Missing cached shader map for material Roofing_Tile_Spanish3, quality 0, compiling.
+[0146.69] Log: Missing cached shader map for material ShaderfxShader1, quality 0, compiling.
+[0147.69] Log: Missing cached shader map for material Translucent_Glass_Corrugated, quality 0, compiling.
+[0148.05] Log: Missing cached shader map for material Translucent_Glass_Corrugated1, quality 0, compiling.
+[0148.43] Log: Missing cached shader map for material Translucent_Glass_Safety, quality 0, compiling.
+[0148.80] Log: Missing cached shader map for material Translucent_Resin_Crush_Gray, quality 0, compiling.
+[0149.16] Log: Building adjacency information for static mesh 'MyPackage.A_Button'.
+[0149.16] Log: Building adjacency information for static mesh 'MyPackage.B_button'.
+[0149.17] Log: Building adjacency information for static mesh 'MyPackage.BackButtons'.
+[0149.18] Log: Building adjacency information for static mesh 'MyPackage.BodyController'.
+[0149.66] Log: Building adjacency information for static mesh 'MyPackage.Cross'.
+[0149.76] Log: Building adjacency information for static mesh 'MyPackage.L_button'.
+[0149.76] Log: Building adjacency information for static mesh 'MyPackage.L_Joystick'.
+[0149.82] Log: Building adjacency information for static mesh 'MyPackage.MyXBoxController'.
+[0152.86] Log: Building adjacency information for static mesh 'MyPackage.R_button'.
+[0152.86] Log: Building adjacency information for static mesh 'MyPackage.R_Joystick'.
+[0152.91] Log: Building adjacency information for static mesh 'MyPackage.X_Button'.
+[0152.91] Log: Building adjacency information for static mesh 'MyPackage.XBoxHome'.
+[0152.92] Log: Building adjacency information for static mesh 'MyPackage.XboxTypeS_Back'.
+[0152.92] Log: Building adjacency information for static mesh 'MyPackage.XboxTypeS_Start'.
+[0152.92] Log: Building adjacency information for static mesh 'MyPackage.Y_button'.
+[0171.04] Cmd: MAP LOAD FILE="C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk" TEMPLATE=0
+[0171.12] Log: Encountered missing default brush - spawning new one
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.44] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0171.45] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading C:\UDK\UDK-2014-02\UDKGame\Content\maher\MyMaehdrescher.udk
+[0172.54] Warning: Failed to load 'Maehdrescher.bauteile.3bolzen_vorn'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_0.StaticMeshComponent_3' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.54] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.54] Warning: Failed to load 'Maehdrescher.bauteile.aussenrohr_oben'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_1.StaticMeshComponent_4' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.54] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.54] Warning: Failed to load 'Maehdrescher.bauteile.hinterradachse'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_10.StaticMeshComponent_11' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.54] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.54] Warning: Failed to load 'Maehdrescher.bauteile.kabine'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_11.StaticMeshComponent_12' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.54] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.54] Warning: Failed to load 'Maehdrescher.bauteile.korntank'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_12.StaticMeshComponent_13' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.linkeSeitenflaeche'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_13.StaticMeshComponent_14' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.schaufel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_15.StaticMeshComponent_16' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.schraegfoerderer'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_17.StaticMeshComponent_18' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.strohhaecksler'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_18.StaticMeshComponent_19' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.treppe_links'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_19.StaticMeshComponent_20' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.dachmotor'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_2.StaticMeshComponent_5' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.vorderradachse'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_20.StaticMeshComponent_21' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.dreschtrommel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_24.StaticMeshComponent_5' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.wendetrommel_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_25.StaticMeshComponent_45' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.55] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler_Auffangblech'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_27.StaticMeshComponent_14' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.55] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.dreschkorb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_39.StaticMeshComponent_4' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.einzugsschnecke'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_4.StaticMeshComponent_6' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.baender_motor_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_41.StaticMeshComponent_6' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.Behaelter-neben-Maehdrescher'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_45.StaticMeshComponent_10' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.baender_links'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_46.StaticMeshComponent_11' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.roehren'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_5.StaticMeshComponent_33' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.foedertrommel_vor_dreschtrommel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_51.StaticMeshComponent_16' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_54.StaticMeshComponent_19' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.hordenschuettler_Auffangblech'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_55.StaticMeshComponent_20' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.kleines_Band_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_56.StaticMeshComponent_21' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.kornschnecke'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_57.StaticMeshComponent_22' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.korntank_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_59.StaticMeshComponent_24' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.geblaese'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_6.StaticMeshComponent_7' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.korntankfoerderer'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_60.StaticMeshComponent_25' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.56] Warning: Failed to load 'Maehdrescher.bauteile.mittelroehre_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_62.StaticMeshComponent_27' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.56] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.motorabdeckung'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_64.StaticMeshComponent_29' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.motorpropeller'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_66.StaticMeshComponent_31' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.obersieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_67.StaticMeshComponent_32' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.roehrenmotor'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_69.StaticMeshComponent_34' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.gesamterLaderaumohnelinkeSeitenflaeche'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_7.StaticMeshComponent_8' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.roehrensieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_70.StaticMeshComponent_35' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.seitenroehren_inneres'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_72.StaticMeshComponent_37' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.stangen_rechts'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_73.StaticMeshComponent_38' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.ueberkehrschnecke_aussen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_75.StaticMeshComponent_40' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.ueberkehrschnecke_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_76.StaticMeshComponent_41' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.untersieb'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_77.StaticMeshComponent_42' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.wendetrommel_innen'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_80.StaticMeshComponent_45' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0172.57] Warning: Failed to load 'Maehdrescher.bauteile.haspel'! Referenced by 'MyMaehdrescher.TheWorld:PersistentLevel.StaticMeshActor_9.StaticMeshComponent_10' ('Engine.StaticMeshComponent:StaticMesh').
+[0172.57] Log: Failed to load 'Maehdrescher': Can't find file for package 'Maehdrescher' while loading NULL
+[0173.02] Log: -- Checking Building LODs
+[0173.04] Log: Primary PhysX scene will be in software.
+[0173.04] Log: Creating Primary PhysX Scene.
+[0173.05] Log: Finished looking for orphan Actors (0.009 secs)
+[0173.59] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0174.00] Log: Save=273.518213
+[0174.00] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0198.82] Exit: Preparing to exit.
+[0199.01] Exit: Editor shut down
+[0199.01] Exit: Transaction tracking system shut down
+[0199.10] Exit: Windows client shut down
+[0199.11] Exit: XAudio2 Device shut down.
+[0199.16] Exit: Object subsystem successfully closed.
+[0199.17] Log: Shutting down FaceFX...
+[0199.17] Log: FaceFX shutdown.
+[0199.20] Exit: Exiting.
+[0199.21] Log: Log file closed, 06/17/14 11:54:58
