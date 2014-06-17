@@ -58,8 +58,9 @@ Development/Src/UDKBase
 Development/Src/UnrealEd
 Development/Src/WinDrv
 Engine/
-
+UDKGame/Autosaves
 UDKGame/Build
+UDKGame/Cloud
 
 
 
