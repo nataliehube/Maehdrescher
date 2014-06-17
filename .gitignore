@@ -65,10 +65,7 @@ UDKGame/Config/IPhone
 UDKGame/Config/Mac
 UDKGame/Config/Mobile
 UDKGame/Config/DefaultCharInfo.ini
-UDKGame/Config/*Editor*.ini
-UDKGame/Config/DefaultLightmass.ini
-UDKGame/Config/DefaultUI.ini
-UDKGame/Config/UDK*.ini
+
 
 
 UDKGame/Logs
