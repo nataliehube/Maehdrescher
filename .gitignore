@@ -69,7 +69,7 @@ UDKGame/Config/*Editor*.ini
 UDKGame/Config/DefaultLightmass.ini
 UDKGame/Config/DefaultUI.ini
 UDKGame/Config/UDK*.ini
-UDKGame/Content
+
 UDKGame/Localization
 UDKGame/Logs
 UDKGame/Movies
@@ -78,3 +78,10 @@ UDKGame/Screenshots
 UDKGame/Script
 UDKGame/Splash
 UDKGame/PCTO*.txt
+
+UDKGame/Content/Maps
+UDKGame/Content/Mobile
+UDKGame/Content/Shared
+UDKGame/Content/Showcases
+UDKGame/Content/TestPackages
+UDKGame/Content/UT3
